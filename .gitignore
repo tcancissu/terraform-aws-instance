@@ -6,6 +6,9 @@
 *.tfstate
 *.tfstate.*
 
+# .lock files
+.terraform.lock.hcl
+
 # Chaves
 *.pem
 rootkey.csv
