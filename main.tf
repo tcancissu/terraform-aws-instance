@@ -19,6 +19,6 @@ resource "aws_instance" "app_server" {
   key_name = "key-rsa"
 
   tags = {
-    Name = "Web Server 01"
+    Name = "Web NodeJS Server"
   }
 }
